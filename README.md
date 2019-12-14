@@ -40,13 +40,21 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Express is comprised of middleware. This is where all the magic happens.
+    Express is to Node, what React is to JS.
+
 - [ ] Describe Middleware?
 
+    Middleware allows the ability to extend the functionality of our framework. Middleware is a collection of functions that run in the order that they are introduced in the server code.
+
 - [ ] Describe a Resource?
+    A resource is a single point of data. Resources in our REST API would have a single URL that points to it. Resources can be managed using the HTTP methods and is stateless.
 
 - [ ] What can the API return to help clients know if a request was successful?
+    API's can return response codes along with messages. 
 
 - [ ] How can we partition our application into sub-applications?
+    We can use routers to partition our application. With those routers, we can designate endpoints when to switch beteween one resource versus another.
 
 ## Minimum Viable Product
 
